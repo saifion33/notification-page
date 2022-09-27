@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: jakarta;
+    src: url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+html {
+    font-family: jakarta;
+
+    color: var(--Dark-grayish-blue);
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+body {
+    background-color: #f9fafe;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifications-container {
+    padding: 1rem;
+    background-color: white;
+    max-width: 650px;
+    border-radius: 1rem;
+}
+
+.notification-header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 0.6rem;
+    font-weight: 800;
+    cursor: default;
+    margin-top: 0.4rem;
+}
+
+#notification-count {
+    background-color: #083378;
+    color: white;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: default;
+
+}
+
+#mark-all-read-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.notification-body {
+
+    margin: 1rem 0;
+    padding: 0.8rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 14px;
+
+}
+
+.unread-message {
+    background-color: var(--Very-light-grayish-blue);
+}
+
+.notification-body .user-name {
+    font-weight: 800;
+    color: black;
+    margin-right: 0.2rem;
+}
+
+.notification-body span {
+    font-weight: 500;
+    color: var(--Very-dark-blue);
+}
+
+.red-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.time-stamp {
+    margin-top: 0.2rem;
+}
+
+#chess-club,
+#chess-club-2 {
+    font-weight: 800;
+    color: darkblue;
+}
+
+.notification-body img,
+#chess-image {
+    width: 3rem;
+    height: 3rem;
+}
+
+#chess-image {
+    cursor: pointer;
+}
+
+.private-message {
+    margin-left: 4.3rem;
+    border: 1px solid var(--Dark-grayish-blue);
+    font-size: 14px;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    letter-spacing: 0.8px;
+}
+
+.private-message:hover {
+    background-color: var(--Light-grayish-blue-1);
+    cursor: pointer;
+}
+
+.message-with-picture {
+    display: flex;
+    justify-content: space-between;
+    width: 160%;
+
+}
+
+#mark-all-read-btn:hover,
+span:hover,
+.user-name:hover {
+    color: #083378;
+    cursor: pointer;
+}
