@@ -14,14 +14,14 @@ This is a solution to the [Notification page challenge on Frontend Mentor]().
 
 ### Screenshot
 
-![Countries info app screenshot]()
+![Countries info app screenshot](https://github.com/saifion33/notification-page/blob/master/screenshot/Screenshot%202022-09-27%20at%2011-18-40%20Notifications%20page.png)
 
 
 
 ### Links
 
 - Solution : [solution on frontend menter]()
-- Live Site : [See live preview]()
+- Live Site : [See live preview](https://saifion33.github.io/notification-page/)
 
 ### Built with
 
