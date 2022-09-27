@@ -1,4 +1,4 @@
-# REST Countries API with color theme switcher
+# Notification Page
 
 This is a solution to the [Notification page challenge on Frontend Mentor]().
 
